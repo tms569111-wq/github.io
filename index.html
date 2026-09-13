@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="신입 백엔드 개발자 유성민의 포트폴리오. 학력과 인턴 이력, Java·Spring Boot로 개발한 스타레일 커뮤니티, 기술과 자격증을 소개합니다.">
+  <meta name="theme-color" content="#285747">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="유성민 | 백엔드 개발자 포트폴리오">
+  <meta property="og:description" content="Java·Spring Boot 기반 웹 서비스 개발과 운영. 이력, 프로젝트, 기술, 자격증.">
+  <title>유성민 | 백엔드 개발자 포트폴리오</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23285747'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='29' font-weight='700' fill='%23fffdf7'%3ESY%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <aside class="sidebar" aria-label="프로필과 메뉴">
+    <div class="profile">
+      <img class="profile-photo" src="./assets/seongmin-portrait.jpg" alt="유성민 프로필 사진" width="1898" height="2048" fetchpriority="high">
+      <div class="profile-copy">
+      <a class="profile-name" href="#about">유성민</a>
+      <p class="profile-english" lang="en">Seongmin Yoo</p>
+      <p class="profile-role">신입 백엔드 개발자</p>
+      <p class="profile-stack">Java · Spring Boot · MySQL</p>
+      <a class="profile-github" href="https://github.com/tms569111-wq" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="포트폴리오 목차">
+      <a href="#about" aria-current="location">소개 · 이력</a>
+      <a href="#skills">기술</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#certificates">자격증 · 어학</a>
+      <a href="#contact">연락처</a>
+    </nav>
+    <div class="sidebar-project">
+      <span>대표 프로젝트</span>
+      <a href="#starrail">스타레일 커뮤니티 <span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+  <main class="content" id="main" tabindex="-1">
+    <section class="section introduction" id="about" aria-labelledby="about-title" tabindex="-1">
+      <h1 id="about-title">소개</h1>
+      <p class="intro-lead">안녕하세요. 신입 백엔드 개발자 <strong>유성민</strong>입니다.</p>
+      <p class="intro-text">Java와 Spring Boot로 <a href="#starrail">스타레일 커뮤니티</a>를 개발·운영하고 있습니다.<br class="desktop-break"> 데이터 분석 인턴과 뉴스 감성 분석 프로젝트를 경험했습니다.</p>
+      <h2 class="resume-title">학력 · 경험</h2>
+      <dl class="resume-list">
+        <div>
+          <dt><time datetime="2026-08">2026.08</time></dt>
+          <dd><h3>DGIST 졸업</h3></dd>
+        </div>
+        <div>
+          <dt><time datetime="2023-12">2023.12</time> – <time datetime="2024-02">2024.02</time></dt>
+          <dd><h3>애드 · 개발 인턴</h3><p>Python·pandas로 광고 로그를 전처리하고 분석 결과를 시각화했습니다.</p></dd>
+        </div>
+        <div>
+          <dt><time datetime="2023-02">2023.02</time> – <time datetime="2023-12">2023.12</time></dt>
+          <dd><h3>뉴스 감성 분석 프로젝트 · 팀 대표</h3><p>뉴스 데이터를 수집·분석하고 주가 지표와 비교했습니다.</p></dd>
+        </div>
+      </dl>
+    </section>
+    <section class="section" id="skills" aria-labelledby="skills-title" tabindex="-1">
+      <h2 id="skills-title">기술</h2>
+      <dl class="skills-list">
+        <div><dt>백엔드</dt><dd>Java · Spring Boot · Spring Security · JPA</dd></div>
+        <div><dt>데이터</dt><dd>MySQL · Flyway · Python · pandas</dd></div>
+        <div><dt>배포 · 운영</dt><dd>AWS EC2 / RDS · Docker · Caddy · GitHub Actions</dd></div>
+        <div><dt>테스트</dt><dd>JUnit · Testcontainers · 부하 테스트</dd></div>
+      </dl>
+    </section>
+    <section class="section" id="projects" aria-labelledby="projects-title" tabindex="-1">
+      <h2 id="projects-title">프로젝트</h2>
+      <article class="project" id="starrail" aria-labelledby="starrail-title" tabindex="-1">
+        <header class="project-heading">
+          <p class="project-type">개인 프로젝트 · 대표작</p>
+          <h3 id="starrail-title">스타레일 커뮤니티</h3>
+          <p class="project-subtitle">붕스 청문회</p>
+          <div class="project-links">
+            <a href="https://37tiervote.com" target="_blank" rel="noopener noreferrer">서비스 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/tms569111-wq/starrail-community" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </header>
+        <div class="project-body">
+          <p>캐릭터를 평가하고 투표와 댓글로 의견을 나누는 웹 서비스입니다. 기획, 백엔드 개발, AWS 배포와 운영을 직접 진행했습니다.</p>
+          <p class="project-stack">Java 21 · Spring Boot · JPA · MySQL · Docker · AWS</p>
+          <p class="project-result">공개 후 약 <strong>2시간 동안 47명 가입, 130건 투표</strong></p>
+        </div>
+        <figure class="architecture" aria-labelledby="architecture-title">
+          <figcaption>
+            <h4 id="architecture-title">서비스 아키텍처</h4>
+            <p>EC2에서 웹 애플리케이션을 실행하고, RDS에 데이터를 저장합니다.</p>
+          </figcaption>
+          <picture class="architecture-picture">
+            <source media="(max-width: 620px)" srcset="./assets/starrail-architecture-mobile.svg" width="420" height="920">
+            <img src="./assets/starrail-architecture.svg" width="1000" height="600" loading="lazy" alt="붕스 청문회 아키텍처. 사용자 요청은 EC2의 Caddy를 거쳐 Spring Boot로 전달됩니다. 애플리케이션은 RDS MySQL에 데이터를 저장하고 Google OAuth2로 로그인하며, Enka와 MiHoMo에서 프로필을 조회합니다. 캐시와 요청 제한은 애플리케이션 메모리에서 처리합니다.">
+          </picture>
+        </figure>
+        <div class="architecture-details">
+          <h4>아키텍처 설명</h4>
+          <dl class="architecture-explanation">
+            <div><dt>웹 요청 처리</dt><dd>Caddy가 HTTPS 요청을 Spring Boot로 전달합니다. 화면은 Thymeleaf로 렌더링합니다.</dd></div>
+            <div><dt>데이터와 로그인</dt><dd>회원·투표·댓글은 RDS MySQL에 저장하고, Google OAuth2로 로그인합니다.</dd></div>
+            <div><dt>외부 프로필 조회</dt><dd>Enka를 먼저 호출하고 실패하면 MiHoMo로 전환합니다. 캐시와 요청 제한은 단일 JVM 메모리에서 관리합니다.</dd></div>
+          </dl>
+          <p class="architecture-ci"><strong>개발 검증</strong> GitHub Actions에서 테스트, Compose·Caddy 설정 검사, 컨테이너 기동 확인을 수행합니다.</p>
+        </div>
+        <div class="project-body project-engineering">
+          <h4>운영하며 해결한 문제</h4>
+          <ul class="solution-list">
+            <li>동일 계정의 중복 조회는 진행 중인 요청 공유와 TTL 캐시로 줄였습니다.</li>
+            <li>외부 API의 지연·실패에 대비해 타임아웃, 호출 차단, 대체 공급자 전환을 적용했습니다.</li>
+            <li>Java와 MySQL의 시간 정밀도를 맞춰 조회 실패 후 쿨다운이 남는 오류를 수정했습니다.</li>
+          </ul>
+          <p class="project-note">공개 전 3,000건 이상의 요청으로 부하 테스트를 진행했습니다.</p>
+          <a class="detail-link" href="https://github.com/tms569111-wq/starrail-community#readme" target="_blank" rel="noopener noreferrer">개발 기록 보기 <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+      <article class="project" aria-labelledby="news-title">
+        <header class="project-heading">
+          <p class="project-type">팀 프로젝트 · 데이터 분석</p>
+          <h3 id="news-title">뉴스 감성 분석</h3>
+          <p class="project-subtitle">News Fear &amp; Greed Index</p>
+          <p class="project-date">2023.02 – 2023.12</p>
+          <div class="project-links"><a href="https://github.com/tms569111-wq/news-fear-and-greed-index" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+        </header>
+        <div class="project-body">
+          <p>뉴스의 긍정·부정 표현을 분석해 주가 지표와 비교한 프로젝트입니다. 팀 대표로 참여해 뉴스 수집과 전처리, 감성 분석을 진행했습니다.</p>
+          <p class="project-stack">Python · BeautifulSoup · KoNLPy · Keras</p>
+          <p>경쟁사에 대한 부정적인 문장이 분석 대상 기업의 평가에 섞이는 문제를 확인하고, 대상 기업을 중심으로 문맥을 구분하도록 전처리 기준을 보완했습니다.</p>
+        </div>
+      </article>
+      <article class="project" aria-labelledby="practice-title">
+        <header class="project-heading">
+          <p class="project-type">개인 학습</p>
+          <h3 id="practice-title">코딩 테스트 기록</h3>
+          <div class="project-links"><a href="https://github.com/tms569111-wq/problem-solving-record" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+        </header>
+        <div class="project-body">
+          <p>프로그래머스와 백준 문제를 풀며 자료구조와 알고리즘을 학습하고, 풀이를 GitHub에 기록하고 있습니다.</p>
+          <p class="project-stack">Python · Java</p>
+        </div>
+      </article>
+    </section>
+    <section class="section" id="certificates" aria-labelledby="certificates-title" tabindex="-1">
+      <h2 id="certificates-title">자격증 · 어학</h2>
+      <ul class="certificates" aria-label="자격증과 어학 성적">
+        <li><span>정보처리기사</span><b>취득</b></li>
+        <li><span>정보통신기사</span><b>취득</b></li>
+        <li><span>SQLD</span><b>취득</b></li>
+        <li><span>ADsP</span><b>취득</b></li>
+        <li><span>PCCP Python</span><b>Lv.2</b></li>
+        <li><span>TOEIC</span><b>865</b></li>
+        <li><span>TOEIC Speaking</span><b>IM3</b></li>
+        <li><span>한국사</span><b>1급</b></li>
+        <li><span>TESAT</span><b>2급</b></li>
+      </ul>
+    </section>
+    <section class="section contact" id="contact" aria-labelledby="contact-title" tabindex="-1">
+      <h2 id="contact-title">연락처</h2>
+      <p>GitHub <a href="https://github.com/tms569111-wq" target="_blank" rel="noopener noreferrer">github.com/tms569111-wq <span aria-hidden="true">↗</span></a></p>
+    </section>
+    <footer class="footer"><span>© 2026 유성민</span><a href="#about">맨 위로 ↑</a></footer>
+  </main>
+</body>
+</html>
